@@ -1,0 +1,29 @@
+# Keil 编译产物
+MDK-ARM/*.o
+MDK-ARM/*.d
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.map
+MDK-ARM/*.lst
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# Keil 输出目录（工程名同名目录）
+MDK-ARM/oled UART led/
+
+# Keil 用户配置文件（界面状态，勿提交）
+MDK-ARM/*.uvguix.*
+
+# Keil 工程选项（本机配置，勿提交）
+MDK-ARM/*.uvoptx
+
+# VS Code
+.vscode/
+
+# 其他临时文件
+*.bak
+*.tmp
+*.log
+../oled_test/
